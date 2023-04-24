@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+	
+	<title>Kandy</title>
+	<style type="text/css">
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+
+.about-section{
+    background: url(assets/img/1.jpg) no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}
+</style>
+
+</head>
+<body>
+	 <div class="about-section">
+        <div class="inner-container">
+            <h1>Kandy</h1>
+            <p class="text">
+                Kandy is the hill capital of Sri Lanka with a great historical and religious background. Kandy is a city of kings where the last of all was King Sri Vikrama Rajasingha and it was the last kingdom of the country prior to gaining independence from the British in 1948. There are many historical and religious attractions to see in Kandy.</br>
+                <ul><li>Pinnawala Elephant Orphanage</li>
+                    <li>Temple Of Tooth Relic</li> 
+                        <li>Knuckles Mountain Range</li> 
+                            <li>Bahirawakanda Temple</li>
+                                <li>Royal Botanical Garden</li>
+                                    <li>Horton Plains National Park Ohiya</li>
+                                        <li> Ceylon Tea Museum</li> 
+                                            <li>Riverton Gap</li>
+                                                <li>Lankatilaka Temple</li>
+                                                    <li>Hanthana Mountain Range</li>
+                                                        <li>Royal Palace Of Kandy</li>
+                   
+            </p>
+            
+        </div>
+        <li class="nav-item" role="presentation"><center><a class="nav-link active d-lg-flex" id="aboutMeLink"
+            href="index.html">HOME</a></center></li>
+    </div>
+</body>
+</html>
